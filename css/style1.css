@@ -32,6 +32,7 @@
 
 .contact .content p{
     font-weight: 300;
+    font-size: 17px;
     color: #fff;
 }
 
@@ -156,6 +157,25 @@
     }
     .container .contactInfo,
     .contactForm{
-        width: 150%;
+        width: 180%;
+    }
+}
+
+@media (max-width: 740px){
+    .contactForm h2{
+        font-weight: 400px;
+    }
+
+    .contactForm{
+        padding: 15px;
+    }
+
+    .contact .content h2{
+        font-size: 28px;
+        margin-top: 29px;
+    }
+
+    .contact .content p{
+        font-display: straight;
     }
 }
